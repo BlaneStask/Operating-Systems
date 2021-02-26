@@ -1,7 +1,4 @@
-/* CMPSC472, Spring 2021
-   Blane Staskiewicz
-   First "C" Program
-*/ 
+// First "C" Program
 
 #include <stdio.h>
 #include <math.h>
