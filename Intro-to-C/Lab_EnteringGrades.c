@@ -1,7 +1,4 @@
-/* CMPSC472, Spring 2021
-   Blane Staskiewicz
-   This lab is to get acquainted with C Progamming
-*/ 
+//This lab is to get more acquainted with C Progamming
 
 #include <stdio.h>
 
