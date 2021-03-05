@@ -1,7 +1,4 @@
 /* 
-   CMPSC472, Spring 2021
-   Blane Staskiewicz
-   This lab is Question 3.21 from the Operating Systems Textbook:
    Using the fork() system call that generates this sequence (if n = 35,
    35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1) in the child 
    process, utilizing the given Collatz conjecture algorithm. Have the
