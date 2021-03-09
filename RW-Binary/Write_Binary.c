@@ -1,8 +1,4 @@
-/* 
-   CMPSC472, Spring 2021
-   Blane Staskiewicz
-   Lab: Writing to a binary file
-*/ 
+// Lab: Writing to a binary file
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -38,13 +34,13 @@ int main()
 	}
 	for(int i = 0; i < 5; i++)
 	{
-        strcpy(my_NFL_QB.lastName, names[i]);
-        my_NFL_QB.jerseyNum = jerseys[i];
-        strcpy(my_NFL_QB.posn, posns[i]);
-        my_NFL_QB.speedTest = speeds[i];
-        strcpy(my_NFL_QB.team, teams[i]);
-        my_NFL_QB.isActive = active[i];
-		fwrite(&my_NFL_QB, sizeof(struct st_NFL_QB), 1, ptr_myfile);
+		strcpy(my_NFL_QB.lastName, names[i]);
+		my_NFL_QB.jerseyNum = jerseys[i];
+		strcpy(my_NFL_QB.posn, posns[i]);
+		my_NFL_QB.speedTest = speeds[i];
+		strcpy(my_NFL_QB.team, teams[i]);
+		my_NFL_QB.isActive = active[i];
+			fwrite(&my_NFL_QB, sizeof(struct st_NFL_QB), 1, ptr_myfile);
 	}
 	fclose(ptr_myfile);
 	return 0;
