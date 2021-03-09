@@ -1,8 +1,4 @@
-/* 
-   CMPSC472, Spring 2021
-   Blane Staskiewicz
-   Lab: Reading to a binary file
-*/ 
+// Lab: Reading to a binary file
 
 #include <stdio.h>
 #include <stdbool.h>
@@ -28,7 +24,7 @@ int main()
 		printf("Unable to open file!");
 		return 1;
 	}
-    printf("\n");
+   	printf("\n");
 	for(int i = 0; i < 5; i++)
 	{
 		fread(&my_NFL_QB, sizeof(struct st_NFL_QB), 1, ptr_myfile);
@@ -37,8 +33,8 @@ int main()
 		printf("Position: %s\n", my_NFL_QB.posn);
 		printf("Speed Test: %0.2f\n", my_NFL_QB.speedTest);
 		printf("Team: %s\n", my_NFL_QB.team);
-        if(my_NFL_QB.isActive == 1){ printf("Active: True \n\n");}
-        else{ printf("Active: False \n\n");}
+		if(my_NFL_QB.isActive == 1){ printf("Active: True \n\n");}
+		else{ printf("Active: False \n\n");}
 	}
 
 	fclose(ptr_myfile);
