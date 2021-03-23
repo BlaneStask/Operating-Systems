@@ -32,9 +32,11 @@ int main ()
             total++;
         }
     }
-    average = count / total;
-    printf("\nThe maximum grade is: %11.2f \n", maximum);
-    printf("The minimum grade is: %11.2f \n", minimum);
-    printf("The average grade is: %11.2f \n", average);
-    printf("The total number of grades: %2d \n", total);
+    if(count != 0){
+        average = count / total;
+        printf("\nThe maximum grade is: %11.2f \n", maximum);
+        printf("The minimum grade is: %11.2f \n", minimum);
+        printf("The average grade is: %11.2f \n", average);
+        printf("The total number of grades: %2d \n", total);
+    }
 }
