@@ -1,6 +1,4 @@
 /*
-    CMPSC472, Spring 2021 - Final Lab
-    Blane Staskiewicz
     Message Mapping Scheme:
     This lab stores messages from a text file in an efficient way
     by taking only words that are not duplicated in other messages
@@ -211,5 +209,4 @@ int main()
         // end with period
         cout << "." << "\n\n";
     }
-    return 0;
 }
