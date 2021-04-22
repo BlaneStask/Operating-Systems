@@ -3,13 +3,3 @@ The alarm is disabled.
 Emergency switch is disabled.
 The Emergency switch is set.
 The switch is disabled.
-
-
-
-
-
-
-
-
-
-
